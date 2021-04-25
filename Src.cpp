@@ -99,7 +99,7 @@ void send_data() {
 		std::cout << "*Response: \n" << response.text << "\n";
 	}
 	else {
-		std::cout << "The service has been successfully blocked. " << response.status_code;
+		std::cout << "service blocked. " << response.status_code;
 	}
 }
 
