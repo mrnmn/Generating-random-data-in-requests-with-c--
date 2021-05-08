@@ -8,7 +8,7 @@
 //generate fake data
 class random { public:
 	std::string generate_ip() {
-		srand(time(NULL));
+		srand(time(NULL)+rand());
 		unsigned int rNum = 0;
 		std::string ip = "";
 		for (int i = 0; i < 4; i++) {
@@ -26,7 +26,7 @@ class random { public:
 	}
 
 	std::string generate_email(unsigned int size) {
-		srand(time(NULL));
+		srand(time(NULL)+rand());
 		unsigned int rNum = 0;
 		std::string email = "";
 		for (int i = 0; i < size - 1; i++) {
