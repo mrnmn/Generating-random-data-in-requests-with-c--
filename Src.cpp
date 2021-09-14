@@ -106,7 +106,7 @@ void send_data() {
   
 
 
-int main() { // its working!
+int main() { 
 //	PTR  ptr = &send_data;
 	typedef void(*PTR)(void);
 	while (true) {
